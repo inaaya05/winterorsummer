@@ -33,7 +33,7 @@ q3a1.addEventListener("click", Winter);
 q3a2.addEventListener("click", Summer);
 
 
-restart.addEventListener("click", clear);
+//restart.addEventListener("click", clear);
 
 //Winter and Summer scores-functions
 function Winter() {
@@ -67,8 +67,7 @@ function updateResult() {
     else if (winterScore >= 2) {
       result.innerHTML = "You are a winter!"
     console.log("You're a winter!");}}
-
-/*function clear() {
+//function clear() {
   //result.innerHTML = "Your result is..."
   //summerScore = 0;
   //winterScore = 0;
@@ -78,7 +77,7 @@ function updateResult() {
   //console.log(" summerScore = " + summerScore);
   //console.log(" winterScore = " + winterScore);}
 
-function updateResult() {
+/*function updateResult() {
   if (summerScore <= 7) {
     result.innerHTML = "You are a summer!"
   console.log ("You are a summer!");} 
