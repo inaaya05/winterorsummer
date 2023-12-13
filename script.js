@@ -4,7 +4,7 @@ var winterScore = 0;
 
 var questionCount = 0;
 
-var result = document.getElementById("result")
+var result = document.getElementById("result");
 
 var q1a1 = document.getElementById("q1a1");
 var q1a2 = document.getElementById("q1a2");
@@ -33,7 +33,7 @@ q3a1.addEventListener("click", Winter);
 q3a2.addEventListener("click", Summer);
 
 
-restart.addEventListener("click", clear)
+restart.addEventListener("click", clear);
 
 //Winter and Summer scores-functions
 function Winter() {
@@ -43,7 +43,7 @@ function Winter() {
   console.log("questionCount = " + questionCount + " winterScore = " + winterScore);
 
   if (questionCount == 3) {
-  console.log("The quiz is done!")
+  console.log("The quiz is done!");
     updateResult();
 }
 }
@@ -54,7 +54,7 @@ function Summer () {
   console.log("questionCount = " + questionCount + " summerScore = " + summerScore);
 
   if (questionCount == 3) {
-  console.log("The quiz is done!")
+  console.log("The quiz is done!");
     updateResult();
 }
 }
