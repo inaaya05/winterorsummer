@@ -44,9 +44,7 @@ function Winter() {
 
   if (questionCount == 3) {
   console.log("The quiz is done!");
-    updateResult();
-}
-}
+    updateResult();}}
 function Summer () {
   summerScore += 1;
   questionCount += 1;
@@ -55,25 +53,20 @@ function Summer () {
 
   if (questionCount == 3) {
   console.log("The quiz is done!");
-    updateResult();
-}
-}
+    updateResult();}}
 
 if (summerScore >= 2) {
-  console.log ("You're a summer!");
-} else if (winterScore >= 2) {
-  console.log("You're a winter!");
-}
+  console.log ("You're a summer!");} 
+else if (winterScore >= 2) {
+  console.log("You're a winter!");}
 
 function updateResult() {
     if (summerScore >= 2) {
       result.innerHTML = "You are a summer!"
-    console.log ("You're a summer!");
-  } else if (winterScore >= 2) {
+    console.log ("You're a summer!");} 
+    else if (winterScore >= 2) {
       result.innerHTML = "You are a winter!"
-    console.log("You're a winter!");
-  }
-}
+    console.log("You're a winter!");}}
 
 function clear() {
   result.innerHTML = "Your result is..."
@@ -83,16 +76,12 @@ function clear() {
 
   console.log(" questionCount = " + questionCount);
   console.log(" summerScore = " + summerScore);
-  console.log(" winterScore = " + winterScore);
-}
+  console.log(" winterScore = " + winterScore);}
 
 function updateResult() {
   if (summerScore <= 7) {
     result.innerHTML = "You are a summer!"
-  console.log ("You are a summer!");
-  } else if (winterScore <= 7) {
+  console.log ("You are a summer!");} 
+  else if (winterScore <= 7) {
     result.innterHTML = "You are a winter!"
-  console.log("You are a winter!");
-  }
-  }
-}
+  console.log("You are a winter!");}}
