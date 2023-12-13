@@ -68,7 +68,7 @@ function updateResult() {
       result.innerHTML = "You are a winter!"
     console.log("You're a winter!");}}
 
-//function clear() {
+/*function clear() {
   //result.innerHTML = "Your result is..."
   //summerScore = 0;
   //winterScore = 0;
@@ -84,4 +84,4 @@ function updateResult() {
   console.log ("You are a summer!");} 
   else if (winterScore <= 7) {
     result.innterHTML = "You are a winter!"
-  console.log("You are a winter!");}}
+  console.log("You are a winter!");}}*/
