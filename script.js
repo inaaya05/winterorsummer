@@ -18,19 +18,19 @@ var q3a2 = document.getElementById("q3a2");
 //var restart = document.getElementById("restart");
 
 // Event listeners
-q1a1.addEventListener("click", Winter());
+q1a1.addEventListener("click", Winter);
 
-q1a2.addEventListener("click", Summer());
-
-
-q2a1.addEventListener("click", Winter());
-
-q2a2.addEventListener("click", Summer());
+q1a2.addEventListener("click", Summer);
 
 
-q3a1.addEventListener("click", Winter());
+q2a1.addEventListener("click", Winter);
 
-q3a2.addEventListener("click", Summer());
+q2a2.addEventListener("click", Summer);
+
+
+q3a1.addEventListener("click", Winter);
+
+q3a2.addEventListener("click", Summer);
 
 
 //restart.addEventListener("click", clear);
